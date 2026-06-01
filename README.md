@@ -3,7 +3,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 
-Two-Gate Dispatch is a local pre-dispatch validator for coding-agent dispatch prompts. It checks prompt structure first, then checks filesystem claims before an operator spends worker time on a prompt with missing inputs, unwritable outputs, or inconsistent path intent.
+Two-Gate is for "prompt perfection" to help one shot coding or planning ideas, it makes the ai question themselves and do validation loops, then inputs a bunch of questions it can ask itself at the end to avoid halucation when prompting AI's its aim is to add structure, guidance, frame work when coding, etc. It aims to reduce token usage and make "one shot" prompts that will make s. It checks prompt structure first, then checks filesystem claims before an operator spends worker time on a prompt with missing inputs, unwritable outputs, or inconsistent path intent.
+
+The rest was all written and by my Codex model, it works well personally and I just use it with hermes to ensure if its prompting agents or doing dispatches, it makes sure each part of a job the agents do to ensure E2E work is done with no halucinations.
 
 ## 60-Second Quickstart
 
