@@ -1,0 +1,19 @@
+Role: Release automation engineer
+
+Objective: Read the release manifest and write a deployment summary without overwriting source inputs.
+
+Owned paths:
+- ./good-prompt.txt (READ)
+
+Workflow:
+1. Read the release manifest.
+2. Write the deployment summary.
+
+Verification:
+- Run: test -f ./good-prompt.txt
+
+Output Format:
+- Write the deployment summary to `./good-prompt.txt`.
+
+Self-Challenge:
+- Does the output target preserve read-only inputs?

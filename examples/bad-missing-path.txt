@@ -1,0 +1,18 @@
+Role: Python packaging validation engineer
+
+Objective: Read a project brief and report its status.
+
+Owned paths:
+- ./project/brief-that-does-not-exist.md (READ)
+
+Workflow:
+1. Read the brief.
+
+Verification:
+- Run: test -f ./project/brief-that-does-not-exist.md
+
+Output Format:
+- Report the validation result in the final response.
+
+Self-Challenge:
+- Did the input path resolve correctly?

@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61,<80"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "two-gate-dispatch"
+version = "1.0.0"
+description = "Local two-stage preflight validation for coding-agent dispatch prompts"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["codex", "cli", "prompt-validation", "preflight", "dispatch"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Quality Assurance",
+]
+
+[project.scripts]
+gate-form = "gate_form:main"
+gate-substance = "gate_substance:main"
+dispatch-gate = "gate_substance:dispatch_main"
+two-gate-form = "gate_form:main"
+two-gate-substance = "gate_substance:main"
+two-gate-dispatch = "gate_substance:dispatch_main"
+
+[tool.setuptools]
+py-modules = ["gate_form", "gate_substance", "prompt_parser", "two_gate_dispatch_cli"]

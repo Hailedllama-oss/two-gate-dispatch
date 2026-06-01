@@ -1,0 +1,22 @@
+Role: Python packaging validation engineer
+
+Objective: Check this example prompt and write a concise validation report.
+
+Owned paths:
+- ./good-prompt.txt (READ)
+- ./generated-report.md (CREATE)
+
+BOUNDARIES: Use only system-installed tools.
+
+Workflow:
+1. Read the prompt.
+2. Create the report.
+
+Verification:
+- Run: test -f ./good-prompt.txt
+
+Output Format:
+- Write a short Markdown report to `./generated-report.md`.
+
+Self-Challenge:
+- Did every referenced path resolve correctly?

@@ -1,0 +1,18 @@
+Role: Python packaging validation engineer
+
+Objective: Write a complete validation report.
+
+Owned paths:
+- ./no-such-dir/bad-report.md (CREATE)
+
+Workflow:
+1. Create the report.
+
+Verification:
+- Run: test -d .
+
+Output Format:
+- Write Markdown to `./no-such-dir/bad-report.md`.
+
+Self-Challenge:
+- Is the output parent directory writable?

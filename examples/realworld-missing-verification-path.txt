@@ -1,0 +1,21 @@
+Role: Deployment validation engineer
+
+Objective: Validate the production configuration and write a deployment readiness summary.
+
+Owned paths:
+- ./good-prompt.txt (READ)
+- ./generated-deploy-summary.md (CREATE)
+
+Workflow:
+1. Read the checked-in prompt.
+2. Verify the production configuration.
+3. Write the readiness summary.
+
+Verification:
+- Run: test -f ./deploy/prod.env
+
+Output Format:
+- Write the readiness summary to `./generated-deploy-summary.md`.
+
+Self-Challenge:
+- Does every verification input exist before dispatch?
