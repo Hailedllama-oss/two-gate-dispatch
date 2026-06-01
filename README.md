@@ -3,6 +3,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 
+
+(WIP - star to get future up dates which will perfect this idea)
+
 Two-Gate is for "prompt perfection" to help one shot coding or planning ideas, it makes the ai question themselves and do validation loops, then inputs a bunch of questions it can ask itself at the end to avoid halucation when prompting AI's its aim is to add structure, guidance, frame work when coding, etc. It aims to reduce token usage and make "one shot" prompts to check for validation loops and rates prompt structure
 
 
